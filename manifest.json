@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "NekoAssist Form Cat",
+  "version": "1.0",
+  "description": "Krishna images that rotate every 30 minutes while helping fill application forms using your locally saved profile.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "krishna.png",
+        "krishna2.png",
+        "Krishna3.png",
+        "krishna4.png",
+        "krishna5.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

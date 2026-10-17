@@ -209,3 +209,41 @@
 #neko-assist-panel .neko-status.neko-error {
     color: #a32332;
 }
+
+#neko-assist-panel .neko-resume {
+    display: grid;
+    gap: 9px;
+    margin-top: 12px;
+}
+
+#neko-assist-panel .neko-resume h3 {
+    margin: 4px 0 0;
+    color: #a83d68;
+    font-size: 15px;
+}
+
+#neko-assist-panel input[type="file"] {
+    min-height: 0;
+    padding: 6px;
+    font-size: 12px;
+}
+
+#neko-assist-panel .neko-check {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 10px;
+    color: #59434c;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#neko-assist-panel .neko-check input[type="checkbox"] {
+    width: auto;
+    min-height: 0;
+    margin: 0;
+}
+
+#neko-assist-panel .neko-button[hidden] {
+    display: none;
+}
